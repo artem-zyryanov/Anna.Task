@@ -1,13 +1,13 @@
 {
-    "max_item": 17695154,
-    "min_item": 17673709,
-    "total_processed": 21701,
+    "max_item": 17695171,
+    "min_item": 17671820,
+    "total_processed": 23602,
     "words_count": {
-        "Big Data": 9,
-        "Blockchain": 92,
-        "Cloud": 395,
-        "Data science": 23,
-        "Deep learning": 19,
-        "Machine Learning": 50
+        "Big Data": 11,
+        "Blockchain": 99,
+        "Cloud": 407,
+        "Data science": 25,
+        "Deep learning": 20,
+        "Machine Learning": 54
     }
 }

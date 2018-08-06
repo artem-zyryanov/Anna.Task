@@ -11,7 +11,6 @@ class BuzzwordIndexer:
     def load(self):
         with open(self.STATE_FILE) as infile:
             self._state = json.load(infile)
-        # валидация загруженного файла
 
     def persist(self):
         with open(self.STATE_FILE, 'w') as outfile:
