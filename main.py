@@ -1,14 +1,4 @@
 from aiohttp import web
+from buzzword_app import init_app
 
-
-async def index(request):
-    return web.FileResponse('static/index.html')
-
-
-app = web.Application()
-app['websockets'] = []
-
-app.add_routes([web.get('/', index),
-                web.static('/static', 'static', append_version=True)])
-
-web.run_app(app)
+web.run_app(init_app())
